@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+
+  .results-img{
+      width: 300px;
+      
+  }
+  .breed-img{
+      width: 300px;
+ 
+  }
+.qty-hide{
+    display: none;
+}
+  
+.breed-hide{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+section{
+    padding-top: 5px;
+    
+}

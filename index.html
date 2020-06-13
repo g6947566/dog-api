@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog API</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+        <h1>Dog API: A Simple Get Request</h1>
+        <form class="input-qty">
+            <h3>How many dog photos do you want between 3-50?</h3>
+            <input type="number" id="num-dog" class="form-control" placeholder="Enter # greater than 3" min="3" required>
+            <input type="submit" id="get" class="btn btn-primary mr-4" value="Get a dog pic!">
+        
+        </form>
+
+        <form class="input-type">
+             <h3>What sort of breed do you want?</h3>
+             <input type="text" id ="breed-type" placeholder="terrier" required>
+             <input type="submit" id="get" class="btn btn-secondary" value="Breed type of dog pic">
+
+        </form>
+           
+
+        <!--image shown on bottom-->
+        <section class="qty-hide ">
+            <div class="results-img" alt="placeholder"></div>
+        </section>
+
+        <section class="breed-hide ">
+            <div class="breed-img" alt="placeholder"></div>
+        </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+ </div>
+</body>
+</html>
