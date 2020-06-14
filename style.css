@@ -11,21 +11,7 @@
     margin: 0 auto;
     display: block;
   }
-  .highlight{
-      width: 300px;
-      height: 25px;
-      background-color: pink;
-      
-      position: relative;
-      top: 80px;
-      background-position-x: left;
-      
-      
-
-    
-      
-      
-  }
+  
   
 
   .results-img{
